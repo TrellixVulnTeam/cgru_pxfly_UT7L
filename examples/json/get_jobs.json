@@ -1,0 +1,11 @@
+{
+	"get":
+	{
+		"type"  : "jobs",
+		"-ids"   : [1],
+		"-uids"  : [1,2],
+		"-mode"  : "full",
+		"users" : ["alex","peter"],
+		"-mask"  : "afanasy|_empty_.*"
+	}
+}

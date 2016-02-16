@@ -1,0 +1,62 @@
+{"cgru_changelog":{
+		"":"This is a Afanasy version change log file",
+
+	"001":[
+					"\\plugins\\maya\\afanasy\\__init__.py"
+	],
+
+	"002":[
+					"\\utilities\\keeper\\cmd.py",
+					"\\utilities\\keeper\\tray.py",
+					"\\utilities\\keeper\\keeper.py",
+					"\\utilities\\keeper\\info.py"
+	],
+
+	"003":[
+					"\\plugins\\houdini\\afanasy.py"
+	],
+
+	"004":[
+					"\\plugins\\houdini\\afanasy.py",
+					"\\utilities\\deletefiles.py",
+					"\\software_setup\\start_c4d.cmd",
+					"\\software_setup\\bin\\c4d.cmd"
+	],
+
+	"005":[
+					"\\utilities\\keeper\\keeper.py",
+					"\\utilities\\keeper\\info.py",
+					"\\config.json"
+	],
+
+	"006":[
+					"\\setup.cmd",
+					"\\plugins\\c4d\\scripts\\python\\RenderOnFarm.pyp"
+	],
+
+	"007":[
+					"\\utilities\\keeper\\keeper.py",
+					"\\utilities\\keeper\\update.py"
+	],
+
+	"008":[
+					"\\update.cmd",
+					"\\config.json"
+	],
+
+	"009":[
+					"\\plugins\\c4d\\scripts\\python\\RenderOnFarm.pyp"
+	],
+
+	"010":[
+					"\\plugins\\maya\\afanasy\\__init__.py",
+					"\\plugins\\maya\\directSendFromMaya.py",
+					"\\plugins\\maya\\shelf_icon.png"
+	],
+
+	"011":[
+					"\\plugins\\maya\\afanasy\\__init__.py"
+	]
+
+
+}}

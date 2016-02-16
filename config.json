@@ -1,0 +1,21 @@
+{"cgru_config":{
+
+	"CGRU_UPDATESERVER" : "cg-47",
+
+	"OS_windows":{
+
+		"af_render_cmd_reboot":"start /wait \"Update\" \"C:\\cgru-windows\\update.cmd\"",
+
+		"af_tempdirectory":"C:\\cgru-tempdir\\",
+
+		"af_render_windowsmustdie":[
+			"ImageMagick Studio library and utility programs",
+			"Microsoft Visual C++ Runtime Library",
+			"QuickTimeHelper-32.exe - Application Error",
+			"Visual Studio Just-In-Time Debugger",
+			"mantra.exe - Application Error",
+			"Nuke7.0.exe - Application Error"
+		]
+		
+	}
+}}

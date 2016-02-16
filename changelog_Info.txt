@@ -1,0 +1,105 @@
+2015-07-22	changed what:	Fixed Maya Vray output thumnail (maya image name output format is
+							different with vray) and browse(the output path is not normal path)
+							in afWatch.
+			
+			changed file:	\cgru-windows\plugins\maya\afanasy\__init__.py
+
+
+
+2015-07-23	changed what:	Add user change in Keeper, change cgruconfig[USERNAME] and
+							env[AF_USERNAME].
+			
+			changed file:	\cgru-windows\utilities\keeper\cmd.py
+							\cgru-windows\utilities\keeper\tray.py
+							\cgru-windows\utilities\keeper\keeper.py
+							\cgru-windows\utilities\keeper\info.py
+
+
+
+2015-07-24	changed what:	Fixed error when houdini submit current frame job.
+							[TypeError: range() integer end argument expected, get float.]
+
+			changed file:	\cgru-windows\plugins\houdini\afanasy.py
+
+
+
+2015-07-25	changed what:	Eval and restore variables($OS, $HIPNAME) in output path of
+							Mantra ROP node in houdini.
+							watched params: ['vm_picture', 'soho_diskfile']
+
+			changed file:	\cgru-windows\plugins\houdini\afanasy.py
+
+
+
+2015-07-25	changed what:	afWATCH's fileDelete function went down when it got errors,
+							mostly happended when maya send jobs by layers, one layer job
+							deleted, and other layer job can't find maya scene file to delete,
+							and it cause error, and fileDelete function went down.
+							So the error report has been removed.
+
+			changed file:	\cgru-windows\utilities\deletefiles.py
+
+
+
+2015-07-25	changed what:	C4D can't start by Keeper, fixed cmd file
+
+			changed file:	\cgru-windows\software_setup\start_c4d.cmd
+							\cgru-windows\software_setup\bin\c4d.cmd
+
+
+
+2015-07-27	changed what:	afanasy workingDirectory changed to 'C:\cgru-pwd'.
+							
+							[af_tempdirectory] changed to 'C:\cgru-tempdir'.
+							Added 'Nuke7.0.exe' and 'mantra.exe' to windowMustDie list.
+
+			changed file:	\cgru-windows\utilities\keeper\keeper.py
+							\cgru-windows\utilities\keeper\info.py
+							
+							\cgru-windows\config.json
+
+
+
+2015-07-28	changed what:	First time init afanasy will create [cgru-pwd] folder in C:\
+			
+			changed file:	\cgru-windows\setup.cmd
+
+
+
+2015-07-28	changed what:	Enabling C4D output thumbnail and browse in afWatch
+			
+			changed file:	\cgru-windows\plugins\c4d\scripts\python\RenderOnFarm.pyp
+
+
+
+2015-07-31	changed what:	Make Afanasy user can update by themself from keeper,
+							and rendermanager can update(in reboot) from afWatch.
+							First time update need [af_update] folder to do the trick.
+			
+			changed file:	\cgru-windows\utilities\keeper\keeper.py
+							\cgru-windows\config.json
+
+			  added file:	\cgru-windows\ad_update\*
+			  				\cgru-windows\utilities\keeper\update.py
+			  				\cgru-windows\update.cmd
+
+
+
+2015-09-14	changed what:	Direct send jobs inside Maya without keeper.
+			
+			changed file:	\cgru-windows\plugins\maya\afanasy\__init__.py
+
+			  added file:	\cgru-windows\plugins\maya\directSendFromMaya.py
+			  				\cgru-windows\plugins\maya\shelf_icon.png
+
+
+2015-09-14	changed what:	應急修正: Maya算圖檔名會有時間戳記的後贅問題. 也許根本原因是因為換成2016，也許需要更新afanasy
+			
+			changed file:	\cgru-windows\plugins\maya\afanasy\__init__.py
+
+
+2015-mm-dd	changed what:
+			
+			changed file:
+
+			  added file:

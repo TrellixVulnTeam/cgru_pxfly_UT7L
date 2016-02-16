@@ -1,0 +1,11 @@
+afserver:
+ image: cgru/afserver
+ ports:
+  - "51000:51000"
+
+afrender:
+ image: cgru/afrender
+ environment:
+  AF_SERVERNAME: "afserver"
+ links:
+  - afserver
